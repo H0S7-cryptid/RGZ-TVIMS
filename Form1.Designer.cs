@@ -81,7 +81,7 @@ namespace ЛАБА_ТВИМС__1
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.chartForHitogramms.Series.Add(series2);
-            this.chartForHitogramms.Size = new System.Drawing.Size(977, 673);
+            this.chartForHitogramms.Size = new System.Drawing.Size(977, 630);
             this.chartForHitogramms.TabIndex = 5;
             this.chartForHitogramms.Text = "chart1";
             // 
@@ -98,7 +98,7 @@ namespace ЛАБА_ТВИМС__1
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(998, 523);
+            numericUpDown1.Location = new Point(998, 537);
             numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
@@ -108,7 +108,7 @@ namespace ЛАБА_ТВИМС__1
             // 
             // numericUpDown2
             // 
-            numericUpDown2.Location = new Point(1101, 596);
+            numericUpDown2.Location = new Point(1101, 610);
             numericUpDown2.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
             numericUpDown2.Minimum = new decimal(new int[] { 5, 0, 0, 0 });
             numericUpDown2.Name = "numericUpDown2";
@@ -119,7 +119,7 @@ namespace ЛАБА_ТВИМС__1
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(998, 505);
+            label1.Location = new Point(998, 519);
             label1.Name = "label1";
             label1.Size = new Size(189, 15);
             label1.TabIndex = 6;
@@ -128,7 +128,7 @@ namespace ЛАБА_ТВИМС__1
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(1098, 563);
+            label2.Location = new Point(1098, 577);
             label2.Name = "label2";
             label2.Size = new Size(238, 30);
             label2.TabIndex = 7;
@@ -206,7 +206,7 @@ namespace ЛАБА_ТВИМС__1
             // 
             // numericUpDown3
             // 
-            numericUpDown3.Location = new Point(1208, 523);
+            numericUpDown3.Location = new Point(1208, 537);
             numericUpDown3.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
             numericUpDown3.Minimum = new decimal(new int[] { 5, 0, 0, 0 });
             numericUpDown3.Name = "numericUpDown3";
@@ -218,7 +218,7 @@ namespace ЛАБА_ТВИМС__1
             // 
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
-            label5.Location = new Point(1205, 476);
+            label5.Location = new Point(1205, 490);
             label5.Name = "label5";
             label5.Size = new Size(164, 45);
             label5.TabIndex = 16;
@@ -227,7 +227,7 @@ namespace ЛАБА_ТВИМС__1
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(1101, 712);
+            label6.Location = new Point(1101, 726);
             label6.Name = "label6";
             label6.Size = new Size(247, 15);
             label6.TabIndex = 17;
@@ -238,7 +238,7 @@ namespace ЛАБА_ТВИМС__1
             // 
             numericUpDown4.DecimalPlaces = 2;
             numericUpDown4.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
-            numericUpDown4.Location = new Point(1101, 730);
+            numericUpDown4.Location = new Point(1101, 744);
             numericUpDown4.Maximum = new decimal(new int[] { 1, 0, 0, 0 });
             numericUpDown4.Minimum = new decimal(new int[] { 1, 0, 0, 131072 });
             numericUpDown4.Name = "numericUpDown4";
@@ -249,7 +249,7 @@ namespace ЛАБА_ТВИМС__1
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(1008, 427);
+            label8.Location = new Point(1008, 441);
             label8.Name = "label8";
             label8.Size = new Size(347, 30);
             label8.TabIndex = 21;
@@ -258,7 +258,7 @@ namespace ЛАБА_ТВИМС__1
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(1098, 639);
+            label7.Location = new Point(1098, 653);
             label7.Name = "label7";
             label7.Size = new Size(206, 30);
             label7.TabIndex = 22;
@@ -266,7 +266,7 @@ namespace ЛАБА_ТВИМС__1
             // 
             // numericUpDown5
             // 
-            numericUpDown5.Location = new Point(1101, 672);
+            numericUpDown5.Location = new Point(1101, 686);
             numericUpDown5.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown5.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             numericUpDown5.Name = "numericUpDown5";
@@ -334,7 +334,6 @@ namespace ЛАБА_ТВИМС__1
             Controls.Add(numericUpDown2);
             Controls.Add(numericUpDown1);
             Controls.Add(button1);
-            this.Controls.Add(this.chartForHitogramms);
             Name = "Form1";
             Text = "Гистограммы распределений";
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
